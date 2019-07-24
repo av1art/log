@@ -1,0 +1,389 @@
+=== Log opened UTC 2019-07-24 14:46:04
+2019-07-24 14:46:04.449 INFO    DCS: Command line: "C:\Program Files\Eagle Dynamics\DCS World\bin/DCS.exe"
+2019-07-24 14:46:04.449 INFO    DCS: DCS/2.5.5.33184 (x86_64; Windows NT 10.0.17134)
+2019-07-24 14:46:04.521 INFO    DCS: Hwid: LORYgeLR4giC3rllcf6UKG8khq0gU52ZBzxNSA
+2019-07-24 14:46:04.521 INFO    DCS: DCS revision: 153180
+2019-07-24 14:46:04.521 INFO    DCS: Renderer revision: 19261
+2019-07-24 14:46:04.521 INFO    DCS: Terrain revision: 19365
+2019-07-24 14:46:04.521 INFO    DCS: CPU cores: 6, threads: 12, System RAM: 16335 MB, Pagefile: 20670 MB
+2019-07-24 14:46:04.538 INFO    EDCORE: (dDispatcher)enterToState_:0
+2019-07-24 14:46:04.545 INFO    Dispatcher: 2019/7/24 17:46 V1803061700
+2019-07-24 14:46:04.559 INFO    INPUT: Device [Keyboard] created deviceId = -1
+2019-07-24 14:46:04.571 INFO    INPUT: Device [Defender COBRA M5 USB Joystick {00687A90-AB19-11e9-8001-444553540000}] created deviceId = -1
+2019-07-24 14:46:04.571 INFO    INPUT: Joystick created[Defender COBRA M5 USB Joystick {00687A90-AB19-11e9-8001-444553540000}], ForceFeedBack: no
+2019-07-24 14:46:04.571 INFO    INPUT: Device [Mouse] created deviceId = -1
+2019-07-24 14:46:04.592 INFO    SOUND: Using driver: xaudio29
+2019-07-24 14:46:04.611 INFO    SOUND: Found 1 available audio device(s):
+2019-07-24 14:46:04.611 INFO    SOUND:   0: ID: "\\?\SWD#MMDEVAPI#{0.0.0.00000000}.{d15bff6c-d7c7-4c61-bf5b-095c19d00634}#{e6327cad-dcec-4949-ae8a-991e976a79d2}", Name: "Динамики (Realtek(R) Audio)"
+2019-07-24 14:46:04.855 INFO    SOUND: loaded 1475 sdefs from "sounds\sdef\"
+2019-07-24 14:46:04.855 INFO    SOUNDER: Preloading Sounders from Sounds\Sounders
+2019-07-24 14:46:04.906 INFO    Dispatcher: InitLow
+2019-07-24 14:46:05.137 INFO    NET: Login success.
+2019-07-24 14:46:05.913 INFO    NET: Got auth data.
+2019-07-24 14:46:06.408 INFO    DCS: Successfully got authorization data.
+2019-07-24 14:46:06.413 INFO    Dispatcher: Loading installed modules...
+2019-07-24 14:46:07.829 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./CoreMods/aircraft/AJS37/entry.lua
+2019-07-24 14:46:07.980 INFO    Scripting: PLUGINS START-------------------------------------------------
+2019-07-24 14:46:08.008 INFO    SOUNDER: Preloading Sounders from .\CoreMods\tech\TechWeaponPack\Sounds\Sounders
+2019-07-24 14:46:08.037 INFO    SOUNDER: Preloading Sounders from .\CoreMods\tech\USS John C Stennis\Sounds\Sounders
+2019-07-24 14:46:08.064 INFO    SOUND: loaded 15 sdefs from ".\coremods\aircraft\av8bna\sounds\sdef\"
+2019-07-24 14:46:08.064 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\AV8BNA\Sounds\Sounders
+2019-07-24 14:46:08.071 WARNING EDCORE: Source ./CoreMods/aircraft/AV8BNA/Shapes is already mounted to the same mount /models/.
+2019-07-24 14:46:08.102 INFO    SOUND: loaded 9 sdefs from ".\coremods\aircraft\c-101\sounds\sdef\"
+2019-07-24 14:46:08.122 WARNING EDCORE: Source ./CoreMods/aircraft/C-101/Liveries is already mounted to the same mount /textures//liveries/.
+2019-07-24 14:46:08.126 INFO    SOUND: loaded 12 sdefs from ".\coremods\aircraft\chinaassetpack\sounds\sdef\"
+2019-07-24 14:46:08.126 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\ChinaAssetPack\Sounds\Sounders
+2019-07-24 14:46:08.188 INFO    SOUND: loaded 5 sdefs from ".\coremods\aircraft\christen eagle ii\sounds\sdef\"
+2019-07-24 14:46:08.215 ERROR   EDCORE: Can't mount coremods/aircraft/christen eagle ii/textures2. Drivers errors: 
+2019-07-24 14:46:08.215 ERROR   EDCORE: 	EDCDriver: there is no directory coremods/aircraft/christen eagle ii/textures2.edc
+2019-07-24 14:46:08.215 ERROR   EDCORE: 	FSDriver: there is no directory coremods/aircraft/christen eagle ii/textures2
+2019-07-24 14:46:08.215 ERROR   EDCORE: 	ZipDriver: Can't open zip archive coremods/aircraft/christen eagle ii/textures2.zip.
+2019-07-24 14:46:08.288 INFO    SOUND: loaded 26 sdefs from ".\coremods\aircraft\f14\sounds\sdef\"
+2019-07-24 14:46:08.288 INFO    SOUNDER: Preloading Sounders from .\CoreMods\aircraft\F14\Sounds\Sounders
+2019-07-24 14:46:08.305 ERROR   EDCORE: Can't mount coremods/aircraft/f14/textures/lns_f14_exterior. Drivers errors: 
+2019-07-24 14:46:08.305 ERROR   EDCORE: 	EDCDriver: there is no directory coremods/aircraft/f14/textures/lns_f14_exterior.edc
+2019-07-24 14:46:08.305 ERROR   EDCORE: 	FSDriver: there is no directory coremods/aircraft/f14/textures/lns_f14_exterior
+2019-07-24 14:46:08.305 ERROR   EDCORE: 	ZipDriver: Can't open zip archive coremods/aircraft/f14/textures/lns_f14_exterior.zip.
+2019-07-24 14:46:08.403 INFO    SOUND: loaded 30 sdefs from ".\coremods\aircraft\i-16\sounds\sdef\"
+2019-07-24 14:46:08.426 INFO    SOUND: loaded 19 sdefs from ".\coremods\aircraft\m-2000c\sounds\sdef\"
+2019-07-24 14:46:08.465 INFO    SOUND: loaded 7 sdefs from ".\coremods\aircraft\mig-21bis\sounds\sdef\"
+2019-07-24 14:46:08.489 INFO    SOUND: loaded 2 sdefs from ".\coremods\aircraft\sa342\sounds\sdef\"
+2019-07-24 14:46:08.522 INFO    SOUND: loaded 4 sdefs from ".\mods\aircraft\ka-50\sounds\sdef\"
+2019-07-24 14:46:08.546 INFO    SOUND: loaded 109 sdefs from ".\mods\aircraft\l-39c\sounds\sdef\"
+2019-07-24 14:46:08.576 INFO    SOUND: loaded 60 sdefs from ".\mods\aircraft\yak-52\sounds\sdef\"
+2019-07-24 14:46:08.584 INFO    Scripting: PLUGINS DONE--------------------------------------------------
+2019-07-24 14:46:09.001 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/AV8BNA/bin/AV8B_AI.dll
+2019-07-24 14:46:09.002 INFO    CE2_AI: Loading CE AI
+2019-07-24 14:46:09.002 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/Christen Eagle II/bin/CE2_AI.dll
+2019-07-24 14:46:09.004 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/F14/bin/F14-AI.dll
+2019-07-24 14:46:09.005 INFO    MiG21_AI: Loading CE AI
+2019-07-24 14:46:09.005 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/MiG-21bis/bin/MiG21_AI.dll
+2019-07-24 14:46:09.009 INFO    SECURITYCONTROL: Loaded ./CoreMods/services/CaptoGlove/bin/edCaptoGlove.dll
+2019-07-24 14:46:09.787 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Ka-50/bin/Ka50.dll
+2019-07-24 14:46:09.834 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Ka-50/bin/CockpitKa50.dll
+2019-07-24 14:46:09.844 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/L-39C/bin/L39C.dll.crypt
+2019-07-24 14:46:09.847 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MiG-29/bin/MiG29.dll.crypt
+2019-07-24 14:46:09.847 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/MiG-29/bin/MIG29CWS.dll.crypt
+2019-07-24 14:46:09.849 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Su-27/bin/Su27.dll.crypt
+2019-07-24 14:46:09.849 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Su-27/bin/SU27CWS.dll.crypt
+2019-07-24 14:46:09.851 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Su-33/bin/Su33.dll.crypt
+2019-07-24 14:46:09.851 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Su-33/bin/SU33CWS.dll.crypt
+2019-07-24 14:46:09.853 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/P51Base.dll
+2019-07-24 14:46:09.854 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/TF51D.dll
+2019-07-24 14:46:09.857 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/Cockpit_P51Common.dll
+2019-07-24 14:46:09.863 INFO    SECURITYCONTROL: Loaded (mm) ./Mods/aircraft/Yak-52/bin/Yak52.dll.crypt
+2019-07-24 14:46:09.869 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/jsAvionics/bin/jsAvionics.dll
+2019-07-24 14:46:10.353 INFO    DCS: options.graphics =
+{
+	['messagesFontScale'] = 1;
+	['rainDroplets'] = true;
+	['LensEffects'] = 0;
+	['heatBlr'] = 2;
+	['anisotropy'] = 4;
+	['water'] = 2;
+	['motionBlur'] = 0;
+	['outputGamma'] = 2.2;
+	['treesVisibility'] = 6000;
+	['aspect'] = 1.7777777777778;
+	['lights'] = 2;
+	['shadows'] = 4;
+	['MSAA'] = 2;
+	['SSAA'] = 0;
+	['civTraffic'] = 'high';
+	['clutterMaxDistance'] = 1500;
+	['cockpitGI'] = 1;
+	['terrainTextures'] = 'max';
+	['multiMonitorSetup'] = '1camera';
+	['shadowTree'] = false;
+	['chimneySmokeDensity'] = 4;
+	['fullScreen'] = true;
+	['DOF'] = 0;
+	['clouds'] = 1;
+	['flatTerrainShadows'] = 0;
+	['forestDistanceFactor'] = 1;
+	['width'] = 1920;
+	['visibRange'] = 'High';
+	['effects'] = 3;
+	['SSAO'] = 0;
+	['useDeferredShading'] = 1;
+	['sync'] = true;
+	['textures'] = 2;
+	['scaleGui'] = false;
+	['preloadRadius'] = 150000;
+	['height'] = 1080;
+	['terrainMapMFD'] = 
+	{
+		['distance'] = 
+		{
+			['mapLodDistance3'] = 200000;
+			['mapLodDistance2'] = 100000;
+			['mapLodDistance0'] = 25000;
+			['mapLodDistance1'] = 50000;
+		};
+	};
+};
+2019-07-24 14:46:10.356 INFO    GRAPHICSVISTA: renderer: 'dx11backend.dll'
+2019-07-24 14:46:10.432 INFO    DX11BACKEND: Driver Concurrent Creates - 1
+2019-07-24 14:46:10.432 INFO    DX11BACKEND: Driver Command Lists - 1
+2019-07-24 14:46:10.621 INFO    DX11BACKEND: NVIDIA API init OK
+2019-07-24 14:46:10.621 INFO    DX11BACKEND: NVIDIA Display Driver Version 43160.r430_00
+2019-07-24 14:46:10.622 INFO    DX11BACKEND: TRUNK renderer init: showShaderError coreCount=1
+2019-07-24 14:46:10.793 INFO    DX11BACKEND: commonPool: 68-128, cbPool: 5-14, samplerPool: 5-16
+2019-07-24 14:46:10.796 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache Bazar/shaders/fxo/fxo.zip
+2019-07-24 14:46:11.711 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 1013/1013.
+2019-07-24 14:46:11.716 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache C:\Users\Илья\Saved Games\DCS\fxo
+2019-07-24 14:46:11.735 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 128/128.
+2019-07-24 14:46:11.929 INFO    VISUALIZER: SceneManager initialization
+2019-07-24 14:46:12.602 INFO    GRAPHICSCORE: cascade shadows init (preset:'default' quality:4 layers:4 size:3072)
+2019-07-24 14:46:12.656 INFO    SOUND: XAudio2: channel layout: Headphones/Stereo
+2019-07-24 14:46:12.657 INFO    SOUND: Using SSE FTZ/DAZ mode.
+2019-07-24 14:46:12.664 INFO    DCS: gDescription: "NVIDIA GeForce GTX 1060 6GB" gVendorId: 4318 gDeviceId: 7171 gMemory: 6052 MB
+2019-07-24 14:46:12.677 ERROR   EDOBJECTS: Destruction shape not found AVIASHTAB_CRASH
+2019-07-24 14:46:12.679 ERROR   EDOBJECTS: Object HB_F14_EXT_PHX_ALU with id=293 already declared in table MissileTable
+2019-07-24 14:46:13.509 INFO    EDCORE: (dDispatcher)enterToState_:1
+2019-07-24 14:46:16.495 INFO    UIBASERENDERER: Cannot load font [C:\Program Files\Eagle Dynamics\DCS World\dxgui\skins\fonts\]!
+2019-07-24 14:46:17.786 INFO    LuaNET: SLMOD INIT: Loading Slmodv7_5_106...
+2019-07-24 14:46:17.789 INFO    LuaNET: SLMOD WARNING: no config file detected.
+2019-07-24 14:46:17.797 INFO    LuaNET: SLMOD INFO: using default config settings.
+2019-07-24 14:46:17.800 INFO    LuaNET: SLMOD WARNING: ./Scripts/MissionScripting.lua is not up to date.  Installing new ./Scripts/MissionScripting.lua.
+2019-07-24 14:46:17.800 ERROR   VFS: VFS_open_write: CreateFile(./Scripts/MissionScripting.lua): Access is denied.
+2019-07-24 14:46:17.800 INFO    LuaNET: SLMOD ERROR: Unable to open ./Scripts/MissionScripting.lua for writing, reason: can't open "./Scripts/MissionScripting.lua" for 'w'
+2019-07-24 14:46:17.800 INFO    LuaNET: SLMOD INFO: SlmodConfig.lua loaded.
+2019-07-24 14:46:17.802 INFO    LuaNET: SLMOD INFO: SlmodUtils.lua loaded.
+2019-07-24 14:46:17.803 INFO    LuaNET: SLMOD INFO: SlmodEvents.lua loaded.
+2019-07-24 14:46:17.804 INFO    LuaNET: SLMOD INFO: SlmodUnits.lua loaded.
+2019-07-24 14:46:17.805 INFO    LuaNET: SLMOD INFO: SlmodMenu.lua loaded.
+2019-07-24 14:46:17.805 INFO    LuaNET: SLMOD INFO: SlmodConvMenu.lua loaded.
+2019-07-24 14:46:17.806 INFO    LuaNET: SLMOD INFO: SlmodPTSMenu.lua loaded.
+2019-07-24 14:46:17.806 INFO    LuaNET: SLMOD INFO: SlmodPOSMenu.lua loaded.
+2019-07-24 14:46:17.808 INFO    LuaNET: SLMOD INFO: SlmodAdminMenu.lua loaded
+2019-07-24 14:46:17.811 INFO    LuaNET: SLMOD INFO: no stats , loading from file: C:\Users\Илья\Saved Games\DCS\Slmod\\SlmodStats.lua
+2019-07-24 14:46:17.811 INFO    LuaNET: SLMOD WARNING: Unable to open SlmodStats.lua , will make a new SlmodStats.lua file.
+2019-07-24 14:46:17.812 INFO    LuaNET: SLMOD INFO: SlmodStats.lua loaded.
+2019-07-24 14:46:17.813 INFO    LuaNET: SLMOD INFO: no metaStats , loading from file: C:\Users\Илья\Saved Games\DCS\Slmod\\SlmodMetaStats.lua
+2019-07-24 14:46:17.813 INFO    LuaNET: SLMOD WARNING: Unable to open SlmodMetaStats.lua , will make a new SlmodMetaStats.lua file.
+2019-07-24 14:46:17.813 INFO    LuaNET: SLMOD INFO: SlmodMetaStats.lua loaded.
+2019-07-24 14:46:17.814 INFO    LuaNET: SLMOD INFO: SlmodAutoAdmin.lua loaded.
+2019-07-24 14:46:17.815 INFO    LuaNET: SLMOD INFO: SlmodPingCheck.lua loaded.
+2019-07-24 14:46:17.816 INFO    LuaNET: SLMOD INFO: SlmodVote.lua loaded.
+2019-07-24 14:46:17.818 INFO    LuaNET: SLMOD INFO: SlmodLibs.lua loaded.
+2019-07-24 14:46:17.819 INFO    LuaNET: SLMOD INFO: SlmodDebugger.lua loaded.
+2019-07-24 14:46:17.819 INFO    LuaNET: SLMOD INFO: SlmodMOTD.lua loaded.
+2019-07-24 14:46:17.819 INFO    LuaNET: SLMOD INFO: SlmodHelp.lua loaded.
+2019-07-24 14:46:17.820 INFO    LuaNET: SLMOD INFO: SlmodCallbacks.lua loaded
+2019-07-24 14:46:17.820 INFO    LuaNET: SLMOD INFO: SlmodTests.lua loaded.
+2019-07-24 14:46:17.930 INFO    Dispatcher: //=== END OF INIT ======================================//
+2019-07-24 14:46:17.930 INFO    EDCORE: (dDispatcher)enterToState_:2
+2019-07-24 14:46:17.982 INFO    EDCORE: (dDispatcher)enterToState_:3
+2019-07-24 14:46:17.982 INFO    Lua: Lua CPU usage: metric: average game loading: 51.9284 %
+2019-07-24 14:46:18.055 INFO    DCS: Screen: MainMenu
+2019-07-24 14:46:20.108 INFO    SOUND: Using SSSE3 for peak calc.
+2019-07-24 14:46:20.153 INFO    NET: client has started
+2019-07-24 14:46:20.154 INFO    NET: Using LEDBAT for UDP congestion control.
+2019-07-24 14:46:20.156 INFO    LuaNET: SLMOD INFO: Modifying netview... results: , true
+2019-07-24 14:52:13.702 INFO    NET: client has stopped
+2019-07-24 14:52:19.678 INFO    NET: server has started
+2019-07-24 14:52:19.679 INFO    NET: Using LEDBAT for UDP congestion control.
+2019-07-24 14:52:20.844 INFO    NET: UPNP IGD detected.
+2019-07-24 14:52:20.844 INFO    NET: Internal LAN IP address: 192.168.0.65
+2019-07-24 14:52:20.844 INFO    NET: External WAN IP address: 178.205.194.118
+2019-07-24 14:52:20.957 INFO    NET: TCP external 178.205.194.118:10308 is redirected to internal 192.168.0.65:10308
+2019-07-24 14:52:21.059 INFO    NET: UDP external 178.205.194.118:10308 is redirected to internal 192.168.0.65:10308
+2019-07-24 14:52:21.059 INFO    NET: Successfully set up Dual-Stack socket, using both IPv4 and IPv6
+2019-07-24 14:52:21.060 INFO    NET: Listen to IPv6 on port 10308
+2019-07-24 14:52:21.060 INFO    Dispatcher: loadMission C:\Users\Илья\Saved Games\DCS\Missions\Yak-52.miz
+2019-07-24 14:52:21.060 INFO    WORLDGENERAL: loading mission from: "C:\Users\Илья\Saved Games\DCS\Missions\Yak-52.miz"
+2019-07-24 14:52:21.076 INFO    NET: Loading mission: "C:\Users\Илья\Saved Games\DCS\Missions\Yak-52.miz"
+2019-07-24 14:52:21.076 INFO    DCS: Screen: Server
+2019-07-24 14:52:21.078 INFO    EDCORE: (dDispatcher)enterToState_:4
+2019-07-24 14:52:21.088 INFO    Dispatcher: Terrain theatre Caucasus
+2019-07-24 14:52:21.116 INFO    Dispatcher: Start
+2019-07-24 14:52:21.125 INFO    NET: state=ssLoading
+2019-07-24 14:52:21.125 INFO    LuaNET: SLMOD INFO: connected client 1
+2019-07-24 14:52:21.125 INFO    LuaNET: SLMOD INFO: num clients: 1
+2019-07-24 14:52:21.125 INFO    DCS: Screen: MainMenu
+2019-07-24 14:52:21.144 INFO    Dispatcher: Terrain theatre Caucasus
+2019-07-24 14:52:21.144 INFO    TERRAIN: lSystem::load(./Mods/terrains/Caucasus\terrain.cfg.lua)
+2019-07-24 14:52:21.144 INFO    TERRAIN: lSystem::CleanScenes()
+2019-07-24 14:52:21.144 INFO    TERRAIN: lSystem::exit()
+2019-07-24 14:52:21.144 INFO    VISUALIZER: TerrainRenderer::release
+2019-07-24 14:52:21.144 INFO    TERRAIN: lSystem::CleanScenes()
+2019-07-24 14:52:21.144 INFO    EDOBJECTS: lTypeObjectManagerImpl::clear 13
+2019-07-24 14:52:21.240 INFO    EDTERRAIN4: TERRAIN_REVISION = 2727
+2019-07-24 14:52:21.240 INFO    EDTERRAIN4: Open terrain cfg "./Mods/terrains/Caucasus\terrain.cfg.lua"
+2019-07-24 14:52:21.240 INFO    EDTERRAIN4: Build date: 
+2019-07-24 14:52:21.240 INFO    EDTERRAIN4: Texture quality: "max"
+2019-07-24 14:52:21.319 INFO    EDCORE: 0.071278 s  terrain references
+2019-07-24 14:52:21.331 INFO    EDCORE: 0.000018 s  terrain models
+2019-07-24 14:52:21.345 INFO    EDCORE: 0.000004 s  terrain assets
+2019-07-24 14:52:21.482 INFO    EDCORE: 0.123149 s  terrain assets2
+2019-07-24 14:52:21.491 ERROR   NET: Server registration failed with code 400
+2019-07-24 14:52:21.772 INFO    EDCORE: 0.280754 s  terrain landfile
+2019-07-24 14:52:21.786 INFO    EDCORE: 0.003569 s  terrain surfaceTile
+2019-07-24 14:52:21.797 INFO    EDTERRAIN4: switchTextures (season=1, minTexture=false)
+2019-07-24 14:52:21.841 INFO    EDCORE: 0.044684 s  terrain vfstextures
+2019-07-24 14:52:21.926 INFO    EDCORE: 0.074019 s  terrain scene
+2019-07-24 14:52:21.935 INFO    EDCORE: 0.000006 s  terrain roaddetails
+2019-07-24 14:52:21.949 INFO    EDCORE: 0.000005 s  terrain forest
+2019-07-24 14:52:24.572 INFO    EDCORE: 2.608914 s  terrain routes
+2019-07-24 14:52:24.582 INFO    EDCORE: 0.000437 s  terrain surfacedetails
+2019-07-24 14:52:24.596 INFO    EDCORE: 0.000096 s  terrain blocks
+2019-07-24 14:52:24.619 INFO    EDCORE: 0.000001 s  terrain references
+2019-07-24 14:52:24.857 INFO    EDCORE: 0.247584 s  terrain superficials
+2019-07-24 14:52:24.875 INFO    EDCORE: 0.007975 s  terrain lma
+2019-07-24 14:52:24.880 INFO    EDCORE: 0.000024 s  terrain vectordatasettings
+2019-07-24 14:52:25.649 INFO    EDCORE: 0.754676 s  terrain navgraph
+2019-07-24 14:52:25.664 INFO    EDCORE: 0.005575 s  terrain vti
+2019-07-24 14:52:25.664 INFO    EDTERRAIN4: terrain time: 4.424417 s
+2019-07-24 14:52:25.672 INFO    TERRAIN: lSystem::InitScenes()
+2019-07-24 14:52:25.672 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=1, month=6)
+2019-07-24 14:52:25.672 INFO    EDTERRAIN4: switchTextures (season=1, minTexture=false)
+2019-07-24 14:52:25.672 INFO    DX11BACKEND: Reloading textures ...
+2019-07-24 14:52:25.835 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() START
+2019-07-24 14:52:25.835 INFO    EDTERRAINGRAPHICS41: loading terrain options: Config/terrain/terrainoptions41.lua
+2019-07-24 14:52:25.836 INFO    EDTERRAINGRAPHICS41: loading terrain shading options: ./Mods/terrains/Caucasus/shadingOptions/Caucasus.lua
+2019-07-24 14:52:25.836 INFO    RENDERER: MetaShaderCache2: [108] from ./Mods/terrains/Caucasus/misc/metacache/dcs.lua
+2019-07-24 14:52:25.905 INFO    RENDERER: loaded [108/108]
+2019-07-24 14:52:25.906 INFO    EDTERRAINGRAPHICS41: Save scene: "C:\Users\Илья\Saved Games\DCS\failed.ofsh"
+2019-07-24 14:52:25.926 WARNING EDTERRAINGRAPHICS41: failed to open "surfaceDetailsHints" section in terrain config
+2019-07-24 14:52:25.936 INFO    EDTERRAINGRAPHICS41: 0.000018s Loaded reference file "caucasus" buffers: 0
+2019-07-24 14:52:25.936 INFO    EDCORE: 0.000036 s  landscape4::lReferenceFile
+2019-07-24 14:52:25.976 INFO    EDTERRAINGRAPHICS41: 0.026138s Loaded reference file "airfieldslights" buffers: 7
+2019-07-24 14:52:25.976 INFO    EDCORE: 0.026147 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.035 INFO    EDTERRAINGRAPHICS41: 0.049500s Loaded reference file "blockbuildings" buffers: 7
+2019-07-24 14:52:26.035 INFO    EDCORE: 0.049512 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.050 INFO    EDTERRAINGRAPHICS41: 0.009358s Loaded reference file "blocktrees" buffers: 0
+2019-07-24 14:52:26.050 INFO    EDCORE: 0.009368 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.166 INFO    EDTERRAINGRAPHICS41: 0.104789s Loaded reference file "caucasusafbbuildings_new" buffers: 27
+2019-07-24 14:52:26.166 INFO    EDCORE: 0.104804 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.202 INFO    EDTERRAINGRAPHICS41: 0.005026s Loaded reference file "caucasusbridges" buffers: 11
+2019-07-24 14:52:26.202 INFO    EDCORE: 0.005036 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.254 INFO    EDTERRAINGRAPHICS41: 0.039943s Loaded reference file "caucasusobjects" buffers: 0
+2019-07-24 14:52:26.254 INFO    EDCORE: 0.039955 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.272 INFO    EDTERRAINGRAPHICS41: 0.008665s Loaded reference file "communication" buffers: 7
+2019-07-24 14:52:26.272 INFO    EDCORE: 0.008677 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.277 INFO    EDTERRAINGRAPHICS41: 0.000355s Loaded reference file "crashmodels" buffers: 1
+2019-07-24 14:52:26.277 INFO    EDCORE: 0.000363 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.350 INFO    EDTERRAINGRAPHICS41: 0.059949s Loaded reference file "crashmodelsfromedm" buffers: 22
+2019-07-24 14:52:26.350 INFO    EDCORE: 0.059964 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.379 INFO    EDTERRAINGRAPHICS41: 0.018648s Loaded reference file "housedetails" buffers: 9
+2019-07-24 14:52:26.379 INFO    EDCORE: 0.018665 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.391 INFO    EDTERRAINGRAPHICS41: 0.002627s Loaded reference file "industrial" buffers: 7
+2019-07-24 14:52:26.391 INFO    EDCORE: 0.002637 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.426 INFO    EDTERRAINGRAPHICS41: 0.024978s Loaded reference file "misc" buffers: 3
+2019-07-24 14:52:26.426 INFO    EDCORE: 0.024989 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.433 INFO    EDTERRAINGRAPHICS41: 0.003422s Loaded reference file "oilplatforms" buffers: 7
+2019-07-24 14:52:26.433 INFO    EDCORE: 0.003434 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.447 INFO    EDTERRAINGRAPHICS41: 0.003794s Loaded reference file "tuapserefinery" buffers: 6
+2019-07-24 14:52:26.447 INFO    EDCORE: 0.003806 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.460 INFO    EDTERRAINGRAPHICS41: 0.003001s Loaded reference file "vehicles" buffers: 9
+2019-07-24 14:52:26.460 INFO    EDCORE: 0.003013 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.474 INFO    EDTERRAINGRAPHICS41: 0.003093s Loaded reference file "vessels" buffers: 7
+2019-07-24 14:52:26.474 INFO    EDCORE: 0.003104 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.495 INFO    EDTERRAINGRAPHICS41: 0.009663s Loaded reference file "walls" buffers: 2
+2019-07-24 14:52:26.495 INFO    EDCORE: 0.009676 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.509 INFO    EDTERRAINGRAPHICS41: 0.009999s Loaded reference file "americanbeech" buffers: 0
+2019-07-24 14:52:26.509 INFO    EDCORE: 0.010009 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.514 INFO    EDTERRAINGRAPHICS41: 0.001000s Loaded reference file "caucasus_fir" buffers: 0
+2019-07-24 14:52:26.514 INFO    EDCORE: 0.001006 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.528 INFO    EDTERRAINGRAPHICS41: 0.001102s Loaded reference file "cypress_oak" buffers: 0
+2019-07-24 14:52:26.528 INFO    EDCORE: 0.001110 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.542 INFO    EDTERRAINGRAPHICS41: 0.001007s Loaded reference file "european_beech" buffers: 0
+2019-07-24 14:52:26.542 INFO    EDCORE: 0.001014 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.555 INFO    EDTERRAINGRAPHICS41: 0.000983s Loaded reference file "green_ash" buffers: 0
+2019-07-24 14:52:26.555 INFO    EDCORE: 0.000990 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.569 INFO    EDTERRAINGRAPHICS41: 0.000971s Loaded reference file "honey_mesquite" buffers: 0
+2019-07-24 14:52:26.569 INFO    EDCORE: 0.000979 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.583 INFO    EDTERRAINGRAPHICS41: 0.000921s Loaded reference file "italiancypress" buffers: 0
+2019-07-24 14:52:26.583 INFO    EDCORE: 0.000927 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.597 INFO    EDTERRAINGRAPHICS41: 0.000990s Loaded reference file "lombardypoplar" buffers: 0
+2019-07-24 14:52:26.597 INFO    EDCORE: 0.000996 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.610 INFO    EDTERRAINGRAPHICS41: 0.000899s Loaded reference file "mountain_maple" buffers: 0
+2019-07-24 14:52:26.610 INFO    EDCORE: 0.000905 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.626 INFO    EDTERRAINGRAPHICS41: 0.001452s Loaded reference file "norwayspruce" buffers: 0
+2019-07-24 14:52:26.626 INFO    EDCORE: 0.001460 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.638 INFO    EDTERRAINGRAPHICS41: 0.000758s Loaded reference file "shrub" buffers: 0
+2019-07-24 14:52:26.638 INFO    EDCORE: 0.000765 s  landscape4::lReferenceFile
+2019-07-24 14:52:26.638 INFO    EDTERRAINGRAPHICS41: InstanceManager2 is completing initialization... 
+2019-07-24 14:52:26.642 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2019-07-24 14:52:26.642 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41: InstanceManager2 complete initialization: 
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   objects:    666
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   subObjects: 493
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   objectLods: 2913
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   objectLodRenderItems: 335
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   MAX_LODS_IN_OBJECT:       10
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   MAX_SUBOBJECTS_IN_OBJECT: 74
+2019-07-24 14:52:26.644 INFO    EDTERRAINGRAPHICS41:   GEOMETRY BUFFERS: 132
+2019-07-24 14:52:26.659 INFO    EDCORE: 0.000005 s  landscape5::OceanFile
+2019-07-24 14:52:26.749 INFO    EDCORE: 0.076164 s  landscape5::GrassFile
+2019-07-24 14:52:26.756 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-07-24 14:52:26.769 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2019-07-24 14:52:26.784 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-07-24 14:52:26.895 WARNING LOG: 7 duplicate message(s) skipped.
+2019-07-24 14:52:26.895 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2019-07-24 14:52:26.909 INFO    EDCORE: 0.000003 s  landscape5::lModels5File
+2019-07-24 14:52:26.923 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-07-24 14:52:26.950 WARNING LOG: 1 duplicate message(s) skipped.
+2019-07-24 14:52:26.950 INFO    EDCORE: 0.000002 s  landscape5::lModels5File
+2019-07-24 14:52:26.964 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2019-07-24 14:52:26.994 WARNING LOG: 1 duplicate message(s) skipped.
+2019-07-24 14:52:26.994 INFO    EDTERRAINGRAPHICS41: remapper.deformers is not empty
+2019-07-24 14:52:27.073 INFO    EDTERRAINGRAPHICS41: materialParams[34055]*1536
+2019-07-24 14:52:27.084 INFO    EDCORE: 0.091984 s  landscape5::Surface5File
+2019-07-24 14:52:27.107 INFO    EDTERRAINGRAPHICS41: materialParams[915]*1536
+2019-07-24 14:52:27.108 INFO    EDCORE: 0.004166 s  landscape5::SurfaceTile
+2019-07-24 14:52:27.119 INFO    EDCORE: 0.002345 s  landscape5::Scene5File
+2019-07-24 14:52:27.135 INFO    EDCORE: 0.004030 s  landscape4::lRoutesFile
+2019-07-24 14:52:27.145 INFO    EDCORE: 0.000023 s  landscape4::lSurfaceDetails2File
+2019-07-24 14:52:27.159 INFO    EDTERRAINGRAPHICS41: materialParams[1]*1536
+2019-07-24 14:52:27.159 INFO    EDCORE: 0.000232 s  landscape4::lSuperficialFile
+2019-07-24 14:52:27.173 INFO    EDCORE: 0.000224 s  landscape4::lGeoNamesFile
+2019-07-24 14:52:27.187 INFO    EDCORE: 0.000746 s  landscape5::sup5File
+2019-07-24 14:52:27.200 INFO    EDCORE: 0.000196 s  landscape5::sup5File
+2019-07-24 14:52:27.214 INFO    EDCORE: 0.000002 s  landscape5::navGraph5File
+2019-07-24 14:52:27.214 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() END 1.379335 s
+2019-07-24 14:52:27.215 WARNING GRAPHICSCORE: already registered Renderer callback
+2019-07-24 14:52:27.222 INFO    VISUALIZER: StartSimulation
+2019-07-24 14:52:28.399 INFO    GRAPHICSCORE: cascade shadows init (preset:'default' quality:4 layers:4 size:3072)
+2019-07-24 14:52:29.112 INFO    Dispatcher: initial random seed = 9949530
+2019-07-24 14:52:29.112 INFO    Dispatcher: apply random seed = 9949530
+2019-07-24 14:52:29.419 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2019-07-24 14:52:29.740 ERROR_ONCE DX11BACKEND: texture 'LiquidAnimationNormals' not found. Asked from 'EFFECTS2'
+2019-07-24 14:52:29.741 ERROR_ONCE DX11BACKEND: texture 'LiquidAnimationAlphas' not found. Asked from 'EFFECTS2'
+2019-07-24 14:52:29.787 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2019-07-24 14:52:29.787 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2019-07-24 14:52:29.788 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2019-07-24 14:52:29.854 INFO    Config: netview started
+2019-07-24 14:52:31.291 INFO    VISUALIZER: CameraIndependedPreload()
+2019-07-24 14:52:31.292 INFO    VISUALIZER: CameraIndependedPreload() finished
+2019-07-24 14:52:31.763 INFO    DCS: MissionSpawn:initScript
+2019-07-24 14:52:31.763 INFO    DCS: MissionSpawn:spawnCoalition red
+2019-07-24 14:52:31.763 INFO    DCS: MissionSpawn:spawnPlanes 0
+2019-07-24 14:52:31.763 INFO    DCS: MissionSpawn:spawnHelicopters 0
+2019-07-24 14:52:31.763 INFO    DCS: MissionSpawn:spawnCoalition blue
+2019-07-24 14:52:31.791 INFO    Scripting: event:type=mission start,t=28800,
+2019-07-24 14:52:31.841 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 0 squares
+2019-07-24 14:52:31.841 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 0 squares
+2019-07-24 14:52:31.841 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.048640 ms
+2019-07-24 14:52:31.916 INFO    NET: simulation is ready, state=ssPaused
+2019-07-24 14:52:31.916 INFO    NET: simResume: curTime=387.916597, syncDelay=0.500000, startTime=388.416597
+2019-07-24 14:52:31.916 INFO    NET: simulation starting, state=ssStarting
+2019-07-24 14:52:31.916 INFO    NET: syncStart at 388.416597:
+2019-07-24 14:52:31.944 INFO    VISUALIZER: Preload() camera=-368986.010498, 1338.235107, 620866.312500 radius=150000.000000
+2019-07-24 14:52:31.944 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(-368986, 1338.24, 620866), radius=150000
+2019-07-24 14:52:32.570 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 2  released 0
+2019-07-24 14:52:32.570 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.026169 ms
+2019-07-24 14:52:32.576 INFO    NET: simulation started, state=ssRunning
+2019-07-24 14:52:33.461 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 18  released 0
+2019-07-24 14:52:33.461 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.024747 ms
+2019-07-24 14:52:34.038 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.000000 ms
+2019-07-24 14:52:37.251 WARNING LOG: 1 duplicate message(s) skipped.
+2019-07-24 14:52:37.251 INFO    VISUALIZER: Preload() finished
+2019-07-24 14:52:37.299 INFO    DCS: Screen: mission_online
+2019-07-24 14:52:37.299 INFO    Dispatcher: precache units resources in slots
+2019-07-24 14:52:38.706 INFO    Lua: Lua CPU usage: metric: average mission loading: 1.3903 %
+2019-07-24 14:52:38.706 INFO    Dispatcher: loadMission Done: Сontrol passed to the player
+2019-07-24 14:52:38.731 WARNING FLIGHT: NO ATC COMM HELIPAD + Platform_Kvest#1:127500000
+2019-07-24 14:52:38.731 WARNING FLIGHT: NO ATC COMM HELIPAD + Platform_Kvest#2:128500000
+2019-07-24 14:52:38.751 INFO    GRAPHICSVISTA: Creating Resource "Unicode" of type 1
